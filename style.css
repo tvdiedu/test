@@ -1,0 +1,121 @@
+/* 練習： 卡片製作 */
+body {
+    /* flatuicolors.com */
+    background-color: #eeeeee;
+    /* google搜尋字形  css 字體 微軟雅黑 */
+    font-family: "Microsoft Yahei";
+}
+
+.card {
+    background-color: #fff;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+
+    /* margin: 0 auto; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+/* ------------------------------------- */
+.top {
+    /* background-color: pink; */
+    color: #1D7FAA;
+    width: 410px;
+    /* height: 200px; */
+
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.top p {
+    font-size: 20px;
+
+    /* border: 2px solid #1D7FAA; */
+    border-bottom: 2px solid #1D7FAA;
+}
+/* ============================================ */
+.mid {
+    /* background-color: pink; */
+    width: 410px;
+    margin-left: 20px;
+
+    font-size: 14px;
+}
+
+/* ------------------------------------------- */
+
+.name , .contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+/* --------------------------------------------- */
+.name {
+    background-color: #fff;
+    margin-top: 35px;
+}
+
+.name p {
+    /* background-color: yellow ; */
+    margin: 0;
+    font-weight: bold;
+}
+/* ------------------------------------------------ */
+
+.chinese {
+    /* border: 1px dashed black; */
+    font-size: 18px;
+}
+
+.chinese span {
+    font-size: 12px;
+}
+
+.eng {
+    /* border: 1px dashed black; */
+    font-size: 10px;
+}
+/* -------------------------------------------- */
+.contact {
+    /* border: 1px dashed black; */
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.contact p {
+    /* border: 1px dashed black; */
+    margin-bottom: 0;
+}
+/* ====================================================== */
+.bot {
+    background-color: #1D7FAA;
+
+    width: 100%;
+    height: 70px;
+
+    position: absolute;
+    bottom: 0px;
+
+    border-radius: 0 0 10px 10px;
+    color: white;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+/* -------------------------------------------- */
+.bot p {
+    /* border: 1px dashed black; */
+    font-size: 14px;
+    margin: 0 0 0 20px;
+    padding-top: 5px;
+}
+
